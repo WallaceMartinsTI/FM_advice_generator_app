@@ -32,11 +32,12 @@ main {
   align-items: center;
 }
 
-h6 {
+h1 {
   color: hsl(150, 100%, 66%);
   letter-spacing: 5px;
   padding-top: 2.5em;
   margin-bottom: 2em;
+  font-size: 16px;
 }
 
 p {
@@ -81,12 +82,13 @@ button {
   align-items: center;
   justify-content: center;
   background-color: hsl(150, 100%, 66%);
-  width: 3em;
-  height: 3em;
+  width: 4em;
+  height: 4em;
   border-radius: 50%;
 
+
   position: absolute;
-  bottom: 5%;
+  bottom: 4%;
 }
 
 .desktop {
@@ -96,11 +98,11 @@ button {
 /* Mobile Large */
 @media (min-width: 425px) {
   main {
-    height: 65%;
+    height: 75%;
   }
 
   .dice_container {
-    bottom: 14.5%;
+    bottom: 9%;
   }
 }
 
@@ -119,7 +121,7 @@ button {
   }
 
   .dice_container {
-    bottom: 14.5%;
+    bottom: 9%;
   }
 }
 
@@ -138,6 +140,6 @@ button {
   }
 
   .dice_container {
-    bottom: 15.5%;
+    bottom: 9%;
   }
 }
