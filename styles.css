@@ -136,4 +136,8 @@ button {
   .desktop {
     display: initial;
   }
+
+  .dice_container {
+    bottom: 15.5%;
+  }
 }
