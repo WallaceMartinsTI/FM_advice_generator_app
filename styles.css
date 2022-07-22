@@ -1,0 +1,139 @@
+/*
+  This design follow the concept of "Mobile First"
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+}
+
+main {
+  height: 85%;
+  width: 80%;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 5%;
+}
+
+.card {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+h6 {
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 5px;
+  padding-top: 2.5em;
+  margin-bottom: 2em;
+}
+
+p {
+  display: inline;
+}
+
+.card div p {
+  color: hsl(193, 38%, 86%);
+  width: 80%;
+}
+
+.card > img {
+  width: 80%;
+}
+
+.text {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.text > p {
+  overflow-wrap: break-word;
+  font-size: 28px;
+  text-align: center;
+}
+
+button {
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.divider {
+  padding-bottom: 1em;
+}
+
+.dice_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(150, 100%, 66%);
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: 5%;
+}
+
+.desktop {
+  display: none;
+}
+
+/* Mobile Large */
+@media (min-width: 425px) {
+  main {
+    height: 65%;
+  }
+
+  .dice_container {
+    bottom: 14.5%;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  main {
+    width: 60%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: initial;
+  }
+
+  .dice_container {
+    bottom: 14.5%;
+  }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+  main {
+    width: 40%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: initial;
+  }
+}
