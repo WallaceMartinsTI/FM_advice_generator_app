@@ -7,7 +7,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ## Links
 
 - Solution URL: [Click here](https://github.com/WallaceMartinsTI/FM_advice_generator_app)
-- Live Site URL: [Click here](https://wallacemartinsti.github.io/FM_product_preview_card/)
+- Live Site URL: [Click here](https://wallacemartinsti.github.io/FM_advice_generator_app/)
 
 ## Built with
 
