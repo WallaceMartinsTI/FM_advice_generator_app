@@ -4,12 +4,12 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ![](./images/desktop-design.jpg)
 
-## Links
+## 🔗 Links
 
 - Solution URL: [Click here](https://github.com/WallaceMartinsTI/FM_advice_generator_app)
 - Live Site URL: [Click here](https://wallacemartinsti.github.io/FM_advice_generator_app/)
 
-## Built with
+## 🛠️ Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -18,8 +18,13 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 - DOM Manipulation
 - Fetch API
 
-## Author
+## 👨‍💻 Author
 
 - Gibhub - [WallaceMartinsTI](https://github.com/WallaceMartinsTI)
 - Frontend Mentor - [@WallaceMartinsTI](https://www.frontendmentor.io/profile/WallaceMartinsTI)
 - Twitter - [@Wallacexp159](https://twitter.com/wallacexp159)
+
+## 📄 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE) file for more details.
+<br />
